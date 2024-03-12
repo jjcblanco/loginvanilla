@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 11px;
+}
+
+.container {
+    background-color: #fff;
+    color: #000;
+    border-radius: 23.4px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 499.2px;
+    width: 100%;
+    padding: 18.2px;
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+form {
+    display: block;
+    padding: 18.2px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 2px;
+}
+
+input[type="text"],
+input[type="url"],
+input[type="tel"],
+input[type="date"],
+input[type="email"],
+input[type="password"] {
+    width: 70%;
+    margin: 8px auto;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 12px;
+    font-size: 11px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.button-container .left-buttons,
+.button-container .right-buttons {
+    flex-grow: 1;
+    text-align: center;
+}
+
+input[type="button"],
+input[type="submit"] {
+    background-color: #ffd700;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+input[type="button"]:hover,
+input[type="submit"]:hover {
+    background-color: #ffd700;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffd700;
+    color: #000;
+    text-decoration: none;
+    border-radius: 12px;
+    font-size: 15px;
+    margin: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ffd700;
+}
