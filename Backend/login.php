@@ -15,7 +15,7 @@ $nr = $stmt->num_rows;
 if ($nr == 1) {
     echo "<script>alert('Usuario logueado.'); window.location = 'tablas.php';</script>";
 } else {
-    echo "<script>alert('Contraseña incorrecta'); window.location = '../index2.html';</script>";
+    echo "<script>alert('Contraseña incorrecta'); window.location = '../index.html';</script>";
 }
 
 $stmt->close();
